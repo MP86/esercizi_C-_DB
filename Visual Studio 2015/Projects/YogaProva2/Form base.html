@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Form</title>
+	<meta charset="utf-8" />
+
+    <link href="css/miocss.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="dati">
+        <div id="utenti">
+
+            <br />
+            <br />
+
+            <!-- CASELLE DI TESTO -->
+            <h3>Nome</h3>
+            <input type="text" name="nome" /><br />
+            <br />
+            <h3>Cognome</h3>
+            <input type="text" name="cognome" /><br />
+            <br />
+
+            <!-- SELECTBOX -->
+            <h3>Paese</h3>
+            <select name="paese">
+                <option value="I">Italia</option>
+                <option value="E">Estero</option>
+            </select><br />
+            <br />
+
+            <!-- M o F -->
+            <h3>Sesso</h3>
+            <input type="radio" name="sesso" value="M" /> M<br />
+            <input type="radio" name="sesso" value="F" /> F<br />
+            <br />
+
+            <!-- CHECKBOX -->
+            <h3>Hobby</h3>
+            <input type="checkbox" name="hobby" value="S" /> Sport<br />
+            <input type="checkbox" name="hobby" value="L" /> Lettura<br />
+            <input type="checkbox" name="hobby" value="C" /> Cinema<br />
+            <input type="checkbox" name="hobby" value="I" /> Internet<br />
+            <br />
+
+            <!-- TEXTAREA -->
+            <h3>Commento</h3>
+            <textarea name="commento" rows="5" cols="30"></textarea>
+            <br />
+            <br />
+
+            <!-- FILE -->
+            <h3>Carica una foto:</h3>
+            <input type="file" name="foto" />
+            <br />
+            <br />
+
+            <!-- SUBMIT -->
+            <input id="botton" type="submit" name="invia" value="Invia i dati" />
+
+
+            <br />
+            <br />
+
+        </div>
+    </div>
+
+            <div class="divider"></div>
+
+</body>
+</html>

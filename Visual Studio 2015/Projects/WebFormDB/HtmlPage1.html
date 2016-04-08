@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    Provider=Microsoft.Jet.OLEDB.4.0;Data Source="C:\Users\Matteo\Documents\DataBase\Primo DB.mdb";Persist Security Info=True
+
+    using System.Data.OleDB;
+    using System.Data.SqlClient;
+
+    string comando = "SELECT * FROM Utenti";
+    string connessione = "Povider=Microsoft.ACE.OleDB.12.0; data source=" + percorso_db;
+             quindi.......
+    string connessione = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="C:\Users\Matteo\Documents\DataBase\Primo DB.mdb";Persist Security Info=True";
+
+    OleDBConnection connection = new OleDBConnection(connessione);
+    connection.Open();
+    OleDBCommand command = new OleDBCommand(comando, connection);
+    OleDBDataReader dataReader = command.ExecuteReader();
+    while(dataReader.Read())
+    {
+    una_stringa = dataReader.GetValue(indice_della_colonna).ToString();
+    }
+    connection.Close();
+    SQLConnection
+    SQLCommand
+    SQLDataReader
+    ecc...
+    command.ExecuteNonQuery();
+    OleDBDataAdapter dataAdapter = new OleDBDataAdapter(stringa_comando, connection);
+    DataSet ds = new DataSet();
+    dataAdapter.Fill(ds);
+    dataGridView1.DataSource = ds.Tables[0];
+
+</body>
+</html>

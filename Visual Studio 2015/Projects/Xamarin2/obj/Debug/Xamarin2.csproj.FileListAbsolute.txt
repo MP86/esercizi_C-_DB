@@ -1,0 +1,5 @@
+c:\users\matteo\documents\visual studio 2015\Projects\Xamarin2\bin\Debug\Xamarin2.dll
+c:\users\matteo\documents\visual studio 2015\Projects\Xamarin2\bin\Debug\Xamarin2.pdb
+c:\users\matteo\documents\visual studio 2015\Projects\Xamarin2\obj\Debug\Xamarin2.csprojResolveAssemblyReference.cache
+c:\users\matteo\documents\visual studio 2015\Projects\Xamarin2\obj\Debug\Xamarin2.dll
+c:\users\matteo\documents\visual studio 2015\Projects\Xamarin2\obj\Debug\Xamarin2.pdb

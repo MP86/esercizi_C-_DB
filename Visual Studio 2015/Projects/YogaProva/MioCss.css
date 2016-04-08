@@ -1,0 +1,19 @@
+﻿body {
+    background-color:darkcyan;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div {
+    text-align:center;
+}
+
+
+header{
+    background-color:aliceblue;
+}
+
+footer {
+    background-color:greenyellow;
+    text-align:center;
+}

@@ -1,0 +1,112 @@
+﻿html{
+    margin:0;
+}
+.fullpage{
+    margin:0;
+}
+body {
+    text-align:center;
+    color:grey;
+    font-size:18px;
+}
+
+header{
+    background-color:#A2238E;
+}
+
+footer{
+    background-color:#A2238E;
+    color:white;
+}
+
+header img{
+    margin-bottom:25px;
+    margin-top.25px;
+}
+
+h1{
+    color:#A2238E;
+}
+
+span{
+    background-color:#A2238E;
+}
+
+img.blocco{
+    width:auto;
+    height:220px;
+}
+
+h4{
+    color:black;
+    font:bold;
+}
+
+div.divider{
+    background-color:lightgrey;
+    height:10px;
+}
+
+footer a{
+    color:white;
+}
+
+header a{
+    color:white;
+}
+
+.firma{
+    color:lightgrey;
+}
+
+.maps{
+    color:#A2238E;
+}
+
+#map {
+    height: 100%;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+#utenti{
+    color:black;
+    text-align:left;
+    margin-left:40%;
+    font-family:cursive;
+}
+
+h3#utenti{    
+    font-style:italic;
+    font-weight:bold;
+}
+
+#dati{
+    background-color:lightblue;
+}
+
+.dato{
+    color:black;
+    font-style:italic;
+    font-family:cursive;
+}
+
+.logo{
+    margin-top:30px;
+}
+
+.table span{
+    color:black;
+    background-color:white;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.tab-content span{
+    color:black;
+    background-color:white;
+    font-size:large;
+}

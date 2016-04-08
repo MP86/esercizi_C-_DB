@@ -1,0 +1,9 @@
+c:\users\matteo\documents\visual studio 2015\Projects\ProvaADONET\bin\Debug\ProvaADONET.exe.config
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\bin\Debug\ProvaADONET.exe
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\bin\Debug\ProvaADONET.pdb
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.csprojResolveAssemblyReference.cache
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.Form1.resources
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.Properties.Resources.resources
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.csproj.GenerateResource.Cache
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.exe
+C:\Users\Matteo\documents\visual studio 2015\Projects\ProvaADONET\obj\Debug\ProvaADONET.pdb

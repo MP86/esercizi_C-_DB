@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yoga.Master.cs" Inherits="YogaProva2.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hot Yoga Therapy</title>
+    <meta name="description" content="Hot Yoga Therapy, Cervia" />
+    
+    <!-- CSS Aggiornato minimale e compilato -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+
+    <!-- Tema Opzionale -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"/>
+
+    <!-- JavaScript Aggiornato minimale e compilato -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- <link href="css/main.css" rel="stylesheet" /> -->
+    <link href="css/miocss.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  
+<div id="fullpage">
+
+    <header>
+       
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 align-logo">
+            <a>
+          <img src="img/logo.png" class="logo" alt="Hot Yoga Therapy, Cervia"/></a>
+        </div>
+       
+        <div class="col-sm-12 align-logo">
+            <a>
+          <img src="img/logo2.png" class="logo2" alt="Hot Yoga Therapy, Cervia"/></a>
+        </div>
+
+      </div>
+    </div>
+       <div class="clearfix"></div>
+        
+            <div class="container text-center telmobile hidden-lg">
+                <a href="tel:331 8365600"><span class="fa fa-phone ico-margin"></span>331 8365600</a>
+            </div>
+ 
+</header>
+
+    <form id="form1" runat="server" >
+
+    <div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    </div>
+
+    </form>
+
+    <footer>
+    <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p>
+          <strong>Associazione culturale Yoga Experience</strong>
+            <br />Via caduti per la libertà, 60 - 48015 Cervia (RA)<br />
+          <a href="tel:331 8365600">Tel e Fax 331 8365600</a> -
+          <a href="mailto:yogaexperience@libero.it">yogaexperience@libero.it</a>
+        </p>
+        <p>
+          <a class="firma" href="http://www.mconweb.it1" target="">By MP86</a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+        <br />
+</footer>
+
+
+<!--
+
+<a href="#" class="scrollup">Torna sù</a>
+
+-->
+
+</div>
+
+</body>
+</html>
